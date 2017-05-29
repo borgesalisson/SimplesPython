@@ -23,7 +23,7 @@ print("1.Somar")
 print("2.Subitrair")
 print("3.Multiplicar")
 print("4.Dividir")
-print("5. Porcentagem")
+print("5.Porcentagem")
 
 operacao = input("Digite o número da opção e tecle Enter(1/2/3/4/5):")
 
