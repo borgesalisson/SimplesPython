@@ -1,4 +1,4 @@
-# define functions
+# define funções de cálculo
 def somar(x, y):
    """Esta função soma 2 números"""
    return x + y
