@@ -1,0 +1,49 @@
+# define functions
+def somar(x, y):
+   """Esta função soma 2 números"""
+   return x + y
+
+def subtrair(x, y):
+   """Esta função subtrair o valor de x por y"""
+   return x - y
+
+def multiplicar(x, y):
+   """Esta função multiplica x * y"""
+   return x * y
+
+def dividir(x, y):
+   """Está função divide x/ y"""
+   return x / y
+def porcentagem(x, y):
+   """Está função cálculo a percentagem de x por y"""
+   return x * y / 100
+# Tela de captura das opções do usuário
+print("Selecione uma operação')
+print("1.Somar")
+print("2.Subitrair")
+print("3.Multiplicar")
+print("4.Dividir")
+print("5. Porcentagem")
+
+operacao = input("Digite o número da opção e tecle Enter(1/2/3/4/5):")
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+if operacao == '1':
+   print(num1,"+",num2,"=", somar(num1,num2))
+
+elif operacao == '2':
+   print(num1,"-",num2,"=", subtrair(num1,num2))
+
+elif operacao == '3':
+   print(num1,"*",num2,"=", multiplicar(num1,num2))
+
+elif operacao == '4':
+   print(num1,"/",num2,"=", dividir(num1,num2))
+
+elif operacao == '5':
+   print(num1,"%",num2,"=", porcentagem(num1,num2))
+   
+else:
+   print("Operação inválida")
