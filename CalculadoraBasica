@@ -1,0 +1,27 @@
+#-*-coding:utf8;-*-
+#qpy:3
+#qpy:console
+#Calculadora em python
+#Autor: Alisson Borges
+#Contato:borgesalisson@hotmail.com
+print("This is console module")
+#Codigo:
+#Variabeis e captura do input dos dados no console
+numero1 = float(input("Numero 1? "))
+operacao= input("Operação: ")
+numero2 = float(input("Numero 2? "))
+#Impressao dos resultados com uso da função if e elif:
+if operacao == "+":
+    print (numero1," + ",numero2," = ",numero1+numero2)
+
+elif operacao == "-":
+    print (numero1," - ",numero2," = ",numero1-numero2)
+
+elif operacao == "*":
+    print (numero1," * ",numero2," = ",numero1*numero2)
+
+elif operacao == "/":
+    print (numero1," / ",numero2," = ",numero1/numero2)
+
+elif operacao == "%":
+    print (numero1," % ",numero2," = ",numero1*numero2/100)
